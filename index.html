@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="ewc/styles.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/196d1be94d.js" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="static/output.css">-->
+    <title>Essay Contest | Geocademy</title>
+</head>
+<body class="bg-gray-100">
+    <header class="sticky bottom-20 top-0 w-full bg-gradient-to-r from-sky-500 to-slate-600">
+        <div class="w- m-auto h-20 justify-between flex">
+            <div class="flex">
+                <button class="px-4 hidden font-semi-bold text-2xl md:text-3xl text-white">Geocademy</button>
+                <button class="px-4 font-semi-bold text-xl md:text-2xl text-white">Essay Contest</button>
+            </div>
+            <div class="justify-evenly mr-3">
+                <button class="px-4 py-2 mt-4 bg-orange-400 text-white rounded-md shadow-md hover:bg-orange-500" onclick="location.href='register.php'">Registser</button>
+                <button class="px-4 py-2 mt-4 bg-orange-400 text-white rounded-md shadow-md hover:bg-orange-500" id="login_btn">Login</button>
+            </div>
+        </div>
+        
+    </header>
+
+    <main class="absolute">
+        <div class="w-11/12 md:w-4/5 p-4 md:p-10 rounded m-auto bg-gray-100">
+            <h1 class="text-2xl text-sky-600 font-semibold">Table of contents</h1>
+            <ol class="list list-inside list-decimal">
+                <li><a class="text-blue-600" href="#ewc">What is EWC</a></li>
+                <li><a class="text-blue-600" href="#rewards">Rewards</a></li>
+                <li><a class="text-blue-600" href="#judges">Meet our Judges</a></li>
+                <li><a class="text-blue-600" href="#rules">Rules and regulations</a></li>
+            </ol><br>
+            <div class="w-11/12 m-auto my-10 text-center">
+                <p>Download the competition guidelines from the link below:</p>
+                <button class="px-4 py-2 mt-4 bg-sky-600 text-white rounded-md shadow-md hover:bg-sky-500"><a href="Gocademy-EWC.pdf" download>Download</a></button>
+            </div>
+            <h1 class="text-2xl text-sky-600 font-semibold" id="ewc">Essay Contest</h1>
+            <p>
+                This is an opportunity to put your writing 
+                skills to the test and stand a chance to win 
+                a sum of K200.
+                The contest is for senior secondary students 
+                who want to improve there writing skills, creativity
+                and research skills.
+                Geocademy believes in the ability of every 
+                learner to be a great future leader and this 
+                competition is one way of sharing our values with the
+                nation. 
+            </p><br><br>
+
+            <h1 class="text-2xl text-sky-600 font-semibold" id="reward">Reward</h1>
+            <p>
+                The winner of this competition will be awarded 
+                a sum of K200 and will be put on our website 
+                and social media platforms
+            </p><br><br>
+    
+            <h1 class="text-2xl text-sky-600 font-semibold" id="judges">Meet Our Judges</h1><br>
+            <div class="m-auto grid grid-cols-2 md:grid-cols-5">
+                <div class="w-40 py-2 text-center">
+                    <div class="m-auto w-32 h-32 md:w-40 md:h-40 rounded-full shadow-xl bg-red-600 mb-4">
+                        <img src="chilufya.jpg" class="rounded-full h-32 w-32 md:w-40 md:h-40">                        
+                    </div>
+                    <p>Chilufya Chilufya</p>
+                </div>
+                <div class="w-40 py-2 text-center">
+                    <div class="m-auto w-32 h-32 md:w-40 md:h-40 rounded-full shadow-xl bg-yellow-600 mb-4">
+                        <img src="gerald.jpeg" class="rounded-full h-32 w-32 md:w-40 md:h-40">
+                    </div>
+                    <p>Gerald Funga</p>
+                </div>
+                <div class="w-40 py-2 text-center">
+                    <div class="m-auto w-32 h-32 md:w-40 md:h-40 rounded-full shadow-md bg-sky-600 mb-4">                        
+                        <img src="nebert.jpeg" class="rounded-full h-32 w-32 md:w-40 md:h-40">
+                    </div>
+                    <p>Nebert Mhango</p>
+                </div>
+                <div class="m-auto md:last:m-auto md:w-40 py-2 text-center">
+                    <div class=" m-auto w-32 h-32 md:w-40 md:h-40 rounded-full shadow-xl bg-orange-600 mb-4">                        
+                        <img src="george.jpg" class="rounded-full h-32 w-32 md:w-40 md:h-40">
+                    </div>
+                    <p>Nkobi Palanga</p>
+                </div>
+
+            </div>
+
+            <h1  class="text-2xl text-sky-600 font-semibold" id="rules">Rules & Regulations</h1>
+            <ol class="list-decimal list list-inside">
+                <li>The judges decision on who wins is final.</li>
+                <li>Your essay must have a title which is underlined or in block letters.</li>
+                <li>Incorrect spellings attracts loss o marks.</li>
+                <li>Your essay must not have words more than 300.</li>
+                <li>All essays must be submitted in the time given.</li>
+                <li>If your essay is typed make sure your title is undelined</li>
+                <li></li>
+            </ol>
+        </div><br>
+        
+        
+        
+    </main>
+    <div class="bg-white w-11/12 md:w-96 mt-10 m-auto md:p-10 text-center py-10 hidden relative" id="login">
+            
+        <form action="./ewc/login.php" method="post">
+            <div>
+                <input type="text" placeholder="Email or Phone" name="contact" class="h-10 w-64 border bg-gray-100 rounded pl-4 mb-2" required>
+            </div>
+            <div>
+                <input type="password" placeholder="Password" name="password" class="h-10 w-64 border bg-gray-100 rounded pl-4 mb-6" required>
+            </div>
+            <button type="submit" class="w-64 h-10 bg-green-600 text-white rounded">Login</button><br><br>
+            <p class="text-gray-600">Don't have an account? <a href="register.php" class="font-semibold underline underline-offset-4">Register</a></p>
+        </form>
+        
+    </div>
+</body>
+<script src="js.js"></script>
+</html>

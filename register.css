@@ -1,0 +1,91 @@
+*{  
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: calibri;
+    display: flex;
+}
+.red{
+    width: 100%;
+    padding: 5px 0 10px 0;
+    border-bottom: rgb(224, 223, 223) .2px solid;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+}
+h2{
+    color: royalblue;
+}
+.div{
+    margin: 50px auto;
+    width: 450px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(199, 196, 196);
+}
+form div{
+    width: 330px;
+    margin: auto; 
+    margin-bottom: 15px;
+}
+form div p{    
+    text-align: left;
+    color: red;
+}
+.inp{
+    display: flex;  
+}
+.inp input:last-child{
+    margin-left: 2px;
+}
+input{
+    font-size: 17px;
+    font-family: calibri;
+    padding-left: 20px;
+    height: 40px;
+    width: 328px;
+    border: rgb(172, 169, 169) solid .2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+button{
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+i{
+    font-size: 90px;
+    color: orangered;
+}
+#e{
+    background-color: green;
+}
+.qw{
+    width: 150px;
+    height: 40px;
+}
+.select select{
+    font-size: 17px;
+    font-family: calibri;
+    padding: 0 20px 0 20px;
+    height: 40px;
+    width: 49%;
+    border: rgb(172, 169, 169) solid .2px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.wed{
+    color: grey;
+    font-size: 15px;
+}
+.wed a{
+    color: royalblue;
+}
